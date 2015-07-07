@@ -1,0 +1,1 @@
+<a href="<?php echo $data['linkAddress']; ?>" title="<?php echo $data['linkerName']; ?>" target="_blank"><?php echo $data['linkerName']; ?></a>

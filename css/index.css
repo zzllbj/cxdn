@@ -1,0 +1,169 @@
+/*创想电脑CSS外观代码*/
+*{ padding:0; margin:0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { border: 0 none; font-family: inherit; font-size: 16px; font-style: inherit; font-weight: inherit; margin: 0; outline: 0 none; padding: 0; }
+:focus { outline: 0 none; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td { font-weight: normal;font-size:16px;width:inherit;height:40px;}
+a img, iframe { border: medium none; }
+ol, ul { list-style: none outside none; }
+input, textarea, select, button { font-family: inherit; font-size: 100%; }
+body{ font-size:20px; overflow-x:hidden; font-family:"Microsoft YaHei","微软雅黑","宋体", Arial; background-color:white; color:#000000;}
+ul,li{ list-style:none;}
+img{ vertical-align:top; border:0;}
+a{ font-size:16px; color:#000; text-decoration:none;}
+a:hover{ color:#EE7F08;}
+h3{ font-size:24px; font-weight:bold; color:#000000; width:auto;float:left;}
+#head{ width:100%; height:828px; margin:0px auto; position:relative;overflow:hidden;}
+#headcommon{width:100%;height:128px;margin:0px auto; position:relative;}
+.top{ height:80px; overflow:hidden; padding:20px 10px;}
+.logo{ width:400px; height:70px; position:relative;left:10px; float:left; margin:auto;}
+.tel{ width:400px; height:30px; float:right; margin:15px auto; font-size:30px; font-weight:bold; color:#525252;}
+#navall{ width:100%; height:43px; background-color:#a71e1e; position:relative;}
+#nav{ width:960px; margin:0px auto; height:43px; font-weight:bold; position:relative; z-index:10;}
+.nav_lft{ width:5px; height:43px; background-color:c21f1f; float:left;}
+#nav ul{ width:100%; height:43px; line-height:43px;}
+#nav a{ display:block !important;}
+#nav ul li{ float:left; list-style:none; position:relative; width:120px;}
+#nav ul li.nobg{ background:none;}
+#nav ul li a{ font-size:20px; text-align:center;}
+#nav ul li a:hover{  background-color:#000;color:#a71e1e;}
+#nav ul li a.selt{ width:120px; background-color:#000; color:#fff;}
+#nav ul ul a:hover { color:#fff;}
+#nav ul ul{ visibility:hidden; position:absolute; left:0px; top:43px;height:43px;}
+#nav ul li:hover ul.second, #nav ul a:hover ul.second { visibility:visible; }
+#nav ul ul li{ text-align:left; border-right:none; float:left; width:120px; height:43px;}
+#nav ul ul li a{ font-weight:200; width:120px;color:#fff; line-height:43px; font-size:16px; background-color:#a71e1e;height:43px;}
+#nav ul ul li a:hover{ color:#fff; height:43px;background-color:#000;}
+#nav .third{ top:0px; left:100px; width:118px;}
+#nav ul ul li:hover ul.third, #nav ul ul a:hover ul.third { visibility:visible; }
+#nav ul ul ul.third{display:inline; position:absolute; left:120px; top:0px;height:43px;}
+#nav ul ul ul.third li{ text-align:left; border-right:none; float:left; width:120px; height:43px;}
+#nav ul ul ul.third li a{ font-weight:100; color:#fff; width:120px; height:43px; line-height:43px; font-size:16px; background-color:#A71E1E;}
+#nav ul ul ul.third li a:hover{ color:#f7f7f7; background-color:#000;}
+#nav ul ul ul li a{ width:120px;color:#3c2626;}
+#nav table{ border-collapse:collapse; }
+.nav_rgt{ width:5px; height:43px; background-color:#c21f1f; float:right;}
+/*#nav ul{ width:950px; height:43px; line-height:43px; float:left;}
+#nav ul li{ width:120px; float:left; text-align:center; background:url(../images/nav_line.jpg) no-repeat top left;}
+#nav ul li.nobg{ background:none;}
+#nav ul li a{ display:block; font-size:14px;}
+#nav ul li a:hover{ background:url(../images/nav_hover.jpg) no-repeat center; color:#fff;}
+#nav ul li a.selt{ background:url(../images/nav_hover.jpg) no-repeat center; color:#fff;}*/
+
+h2{height:20px; line-height:20px; margin-bottom:20px; font-size:16px; color:#C92E08; font-weight:normal;}
+.banner{ width:100%; height:268px; margin:0px auto; position:absolute; z-index:1;}
+#cent{ width:90%; margin:45px auto; overflow:hidden;}
+#left{width:28%;float:left;clear:none;}
+.news{ width:100%; height:auto;}
+.news_tit{ width:380px; height:45px; overflow:hidden; padding:15px 10px;}
+.news_tit h3{ padding:17px 0 0 0;border-bottom:3px solid #00b2c5;}
+.more{ float:right; width:60px; padding:40px 80px 0px 0px;}
+.news ul li{ width:100%; background:url(../images/li_line_bg.jpg) left bottom repeat-x; line-height:30px;}
+.news ul li a{ padding-left:15px;}
+.contact{ width:290px; height:300px; background:url(../images/contact_bg.jpg) no-repeat; padding-top:50px;}
+.contact p{ font-family:Arial, Helvetica, sans-serif;padding:0px 16px; line-height:28px;}
+#right{width:70%; float:right;}
+.about{ width:100%;}
+.about_tit{ width:100%; height:60px;}
+.about_tit h3{padding:17px 0 0 0;border-bottom:4px solid #00b2c5;}
+.about_tit .more{ padding-top:35px;}
+.about_cont{ width:95%; border:1px solid; text-align:justify; padding:20px 20px 0 20px; line-height:30px; text-indent:24px;font-size:18px; overflow:hidden; }
+.down{ width:100%; height:40px; margin-top:8px;}
+.down_txt{ width:200px; float:left;}
+.down_icon{ width:208px; height:41px; float:right;}
+.pro{ width:100%; height:auto;}
+.pro_tit{ width:100%; height:50px;}
+.pro_tit h3{ padding:17px 0 0 0; border-bottom:4px solid #00b2c5;}
+.pro_tit .more{ padding-top:35px;}
+.pro_cont{ width:100%; height:auto;}
+.pro_cont ul{ padding:20px 7px 0 7px; height:150px;}
+.pro_cont ul li{ width:164px; height:152px; float:left;}
+.pro_cont ul li img{ margin:5px 12px; width:140px; height:111px;}
+.pro_cont ul li a{ display:block; font-size:16px;  text-align:center; line-height:30px;color:#000}
+.pro_cont ul li a:hover{border-bottom:4px solid #E69111;color:#e69111;}
+#led{width:100%; height:85px; background:url("../images/led.jpg"); overflow:hidden; white-space:nowrap;}
+*html #led{width:100%; height:31px; background:url("../images/led.jpg"); overflow:hidden; white-space:nowrap;}
+*+html #led{width:100%; height:31px; background:url("../images/led.jpg"); overflow:hidden; white-space:nowrap;}
+#led{margin:0px; padding:0; list-style:none; overflow:hidden;}
+#led li a:link, #led li a:visited{color:#f80000; font-size:32px; font-family:"微软雅黑","黑体","宋体"; text-decoration:none;}
+#led li a:hover{color:#00CC00; text-decoration:none;}
+.ledtext{ border:none margin:0px 0px 0px 0px;}
+/*common*/
+.location{ width:70%; height:44px; line-height:50px; overflow:hidden; padding:15px;}
+.location a{font-size:16px; color:#000;}
+.location a:hover{border-bottom:4px solid #EE7F08;}
+.layout{ width:95%; height:100%; text-align:justify; padding:1px 20px 20px 20px; line-height:23px;}
+#foot{ width:100%; height:220px; margin-top:15px;top:100%; background-color:#6f2222;}
+.foot_all{ width:100%; height:150px;margin:0 auto; padding:40px; color:#fff;}
+.foot_all p{ height:25px; line-height:25px;}
+.foot_lft{ width:20%; float:left; font-family:Arial, Helvetica, sans-serif;}
+.foot_logo{ width:150px; float:left; text-align:center; padding-top:10px;}
+.foot_360{width:100px; float:right; padding:50px 120px 0 0;}
+/*自适应高度*/
+#cent:after{ display:block; height:0; clear:both; visibility:hidden;}
+#cent{display:inline-block;}
+/*\*/
+#cent{display:block;}
+/* end easy clearing */
+/*\*/
+#left, #right{padding-bottom: 32767px !important; margin-bottom: -32767px !important;}
+@media all and (min-width: 0px) {
+#left, #right{padding-bottom: 0 !important; margin-bottom:0 !important; }
+#left:before, #right:before{ content: '[DO NOT LEAVE IT IS NOT REAL]'; display: block; background: inherit; padding-top: 32767px !important; margin-bottom: -32767px !important; height:0;}
+}
+#pagelist { padding:0;width:95%; font-size:12px; list-style-type:none; margin-left:20px; margin-bottom:10px;}
+#pagelist li {width:95%; height:30px; }
+#pagelist li a .lbt {display:block; width:72%; float:left; text-indent:20px; text-decoration:none; white-space:nowrap; text-overflow:ellipsis; overflow: hidden; display:inline;}
+#pagelist li a .ldt { font:12px Arial;display:block; width:70px; float:right; text-align:center; color:#069; text-decoration:none; display:inline; margin-top:7px;}
+#pagelist li a {width:95%; height:30px; display:block; line-height:30px; color:#000000; text-decoration:none; cursor:hand; overflow:hidden; font-size:16px; }
+#pagelist li a:hover{ color:#3ac3cf; text-decoration:none; border-left:4px solid  #E69111;}
+#pagelist li a:hover .ldt {color:#03c;border-bottom:4px solid #E69111;}
+#pagelist h2{ font: bold 20px Arial;font-family:"微软雅黑","宋体"; padding-bottom: 6px;border-bottom: 1px solid #999;margin-top:10px; text-decoration: none;color: #369;zoom:1;width:90px;} 
+#pagelist a:hover h2{ font: bold 20px Arial;padding-bottom: 4px; margin-top:10px; text-decoration: none;zoom:1;border-bottom:4px solid #E69111;}
+.clear{ clear:both;}
+/*焦点图代码部分*/
+/* slide */
+.slide-main{height:580px;position:relative;}
+.prev,.next{display:block;width:44px;height:44px;position:absolute;z-index:222;top:267px;overflow:hidden;cursor:pointer;opacity:0.6;-moz-opacity:0.6;filter:alpha(opacity=60);_border:1px solid none;}
+.prev{left:70px;}
+.next{right:70px;}
+.prev:hover,.next:hover,.nav-main a:hover,.nav-main a.cur{opacity:1;-moz-opacity:1;filter:alpha(opacity=100);}
+.item{display:block;width:100%;height:5px;position:absolute;z-index:124;top:540px;left:0;text-align:center;}
+.item a{display:inline-block;width:24px;height:5px;margin-right:11px;background:#333;opacity:0.6;-moz-opacity:0.6;filter:alpha(opacity=60);overflow:hidden;}
+.item a.cur{background:#fff;}
+.slide-box,.slide{display:block;width:100%;height:580px;overflow:hidden;}
+.slide-box{position:relative;}
+.slide{display:none;height:490px;padding-top:89px;background:#ff6900;position:relative;position:absolute;z-index:8;}
+#bgstylea{background:#ff6900;}
+#bgstyleb{background:#193d85;}
+#bgstylec{background:#000;}
+.slide a{display:block;width:100%;height:490px;cursor:pointer;}
+.obj-a,.obj-b,.obj-c,.obj-d,.obj-e,.obj-f{position:absolute;z-index:9;left:50%;}
+.obj-a,.obj-b{width:952px;margin-left:-476px;text-align:center;}
+.obj-a{display:block;height:352px;top:100px;}
+.obj-b{top:406px;height:100px;}
+.obj-c{display:block;height:582px;top:0;margin-left:-540px;}
+.obj-d{top:228px;height:164px;}
+.obj-d p{display:block;padding-top:20px;font-size:16px;color:#fff;clear:both;}
+.obj-e{width:366px;height:170px;margin-left:-460px;top:223px;z-index:12;}
+.obj-f{width:692px;height:394px;top:25px;margin-left:-180px;}
+.banAnimate .obj-a{display:block;animation-name:baoAni;-webkit-animation:baoAni 0.4s linear 0s normal none;-moz-animation:baoAni 0.4s linear 0s normal none;animation:baoAni 0.4s linear 0s normal none;}
+@-webkit-keyframes baoAni{from{opacity:0;left:60%;} to{opacity:1;left:50%;} }
+@-moz-keyframes baoAni{from{opacity:0;left:60%;} to{opacity:1;left:50%;} }
+@keyframes baoAni{from{opacity:0;left:60%;} to{opacity:1;left:50%;} }
+.banAnimate .obj-b{display:block;animation-name:saAni;-webkit-animation:saAni 0.4s linear 0s normal none;-moz-animation:saAni 0.4s linear 0s normal none;animation:saAni 0.4s linear 0s normal none;}
+@-webkit-keyframes saAni{from{opacity:0;-webkit-transform:scale(0,0);} to{opacity:1;-webkit-transform:scale(1,1);} }
+@-moz-keyframes saAni{from{opacity:0;-moz-transform:scale(0,0);} to{opacity:1;-moz-transform:scale(1,1);} }
+@keyframes saAni{from{opacity:0;transform:scale(0,0);} to{opacity:1;transform:scale(1,1);} }
+.watch-code.code-show{display:block;animation-name:scode;-webkit-animation:scode 0.3s linear 0s normal none;-moz-animation:scode 0.3s linear 0s normal none;animation:scode 0.3s linear 0s normal none;}
+@-webkit-keyframes scode{from{opacity:0;-webkit-transform:scale(1,0);transform-origin:left bottom;} to{opacity:1;-webkit-transform:scale(1,1); transform-origin: left bottom;} }
+@-moz-keyframes scode{from{opacity:0;-moz-transform:scale(1,0); transform-origin:left bottom;} to{opacity:1;-moz-transform:scale(1,1);transform-origin:bottom bottom;} }
+@keyframes scode{from{opacity:0;transform:scale(1,0);transform-origin:left bottom;} to{opacity:1;transform:scale(1,1);transform-origin: left bottom;} }
+.banAnimate .obj-c,.banAnimate .obj-e{display:block;animation-name:saAnic;-webkit-animation:saAnic 0.3s linear 0s normal none;-moz-animation:saAnic 0.3s linear 0s normal none;animation:saAnic 0.3s linear 0s normal none;}
+@-webkit-keyframes saAnic{from{opacity:0;left:47%;} to{opacity:1;left:50%;} }
+@-moz-keyframes saAnic{from{opacity:0;left:47%;} to{opacity:1;left:50%;} }
+@keyframes saAnic{from{opacity:0;left:47%;} to{opacity:1;left:50%;} }
+.banAnimate .obj-d,.banAnimate .obj-f{display:block;animation-name:saAnid;-webkit-animation:saAnid 0.3s linear 0s normal none;-moz-animation:saAnid 0.3s linear 0s normal none;animation:saAnid 0.3s linear 0s normal none;}
+@-webkit-keyframes saAnid{from{opacity:0;left:53%;} to{opacity:1;left:50%;} }
+@-moz-keyframes saAnid{from{opacity:0;left:53%;} to{opacity:1;left:50%;} }
+@keyframes saAnid{from{opacity:0;left:53%;} to{opacity:1;left:50%;} }
